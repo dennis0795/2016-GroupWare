@@ -8,9 +8,13 @@ namespace Topicos.HelloWorld_
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            string userName;
+            Console.WriteLine("Write the name of the user: ");
+            userName = Console.ReadLine();
+            Console.WriteLine("Hello World, "+ userName);
             Console.ReadLine();
         
         }
