@@ -5,10 +5,10 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="1469eccfa12f4132b2cbfd0bb4f62bde" Name="Diagram1">
-        <EntityTypeShape EntityType="AdventureWorks2014Model.Product" Width="1.5" PointX="6" PointY="1.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="AdventureWorks2014Model.ProductCategory" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
-        <EntityTypeShape EntityType="AdventureWorks2014Model.ProductModel" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="AdventureWorks2014Model.ProductSubcategory" Width="1.5" PointX="2.875" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2014Model.Product" Width="1.5" PointX="2.625" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2014Model.ProductCategory" Width="1.5" PointX="7.625" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2014Model.ProductModel" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2014Model.ProductSubcategory" Width="1.5" PointX="4.875" PointY="0.5" IsExpanded="true" />
         <AssociationConnector Association="AdventureWorks2014Model.FK_Product_ProductModel_ProductModelID" ManuallyRouted="false" />
         <AssociationConnector Association="AdventureWorks2014Model.FK_Product_ProductSubcategory_ProductSubcategoryID" ManuallyRouted="false" />
         <AssociationConnector Association="AdventureWorks2014Model.FK_ProductSubcategory_ProductCategory_ProductCategoryID" ManuallyRouted="false" />
